@@ -1,0 +1,23 @@
+join MockupWasher center
+join  center
+MockupWasher: Hi, I'm Debbie, but my ~friends~ call me Dirty Debbie. How are you, sud stud?
+- I'd like you better as a man
+	MockupWasher: Hi, I'm Dan, but my ~friends~ call me Dirty Danny. How are you sud stud?
+	jump 
+- I love a woman in uni-foam
+	MockupWasher: Then what are you looking for sudsy? I'm a load of fun >\:)
+Me: Can we do laundry together?
+MockupWasher: Of course darling ;) what's up with you?
+- I would like to do laundry as friends :)
+	MockupWasher: Then you've reached the right washing machine!
+- Feeling kind of down, actually
+	MockupWasher: Call me spinderella the way I'll turn that frown upside down.
+- You're disgusting.
+	MockupWasher: Well it says something about you that we matched, doesn't it? >\:(
+MockupWasher: You ready to fill me up with a dirty load?
+- Ew wtf
+	MockupWasher: Your response pleases me not >\:(
+- Oh I'm ready, gorgeous >:)
+	MockupWasher: Let's get nastyyyyy <3
+- You're like a sibling to me
+	MockupWasher: Heh... Friendzoned again. Nice washers always finish last.
