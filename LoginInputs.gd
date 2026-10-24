@@ -49,4 +49,4 @@ func _on_username_entry_focus_exited() -> void:
 		$"Username Entry".text = username + "#1"
 
 func _on_continue_button_button_down() -> void:
-	get_tree().change_scene_to_file("res://WashingMachine.tscn")
+	get_tree().change_scene_to_file("res://selection_screen.tscn")
