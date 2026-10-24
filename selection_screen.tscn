@@ -1,0 +1,341 @@
+[gd_scene format=3 uid="uid://c4h78jfhdgv0x"]
+
+[ext_resource type="Script" uid="uid://b2ladm28x51p2" path="res://selection_screen.gd" id="1_t8mf8"]
+
+[node name="Selection Screen" type="Control" unique_id=897266787]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_t8mf8")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1525028416]
+layout_mode = 0
+offset_right = 1170.0
+offset_bottom = 672.0
+color = Color(1, 0.5372549, 0.40392157, 1)
+
+[node name="DirtyDebbie" type="Control" parent="." unique_id=543759223]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_top = 32.0
+offset_bottom = 141.0
+grow_horizontal = 2
+
+[node name="ColorRect" type="ColorRect" parent="DirtyDebbie" unique_id=552255559]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 8.0
+offset_top = 16.0
+offset_right = -8.0
+offset_bottom = -16.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.9356389, 0.88372606, 0.7514808, 1)
+
+[node name="RichTextLabel" type="RichTextLabel" parent="DirtyDebbie/ColorRect" unique_id=572545655]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = 32.0
+offset_top = -26.5
+offset_right = 320.0
+offset_bottom = 22.5
+grow_vertical = 2
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 32
+text = "Dirty Debbie"
+
+[node name="Button" type="Button" parent="DirtyDebbie/ColorRect" unique_id=2122373419]
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -259.0
+offset_top = -28.5
+offset_right = -24.0
+offset_bottom = 28.5
+grow_horizontal = 0
+grow_vertical = 2
+text = "SELECT"
+
+[node name="Linta" type="Control" parent="." unique_id=923102495]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_top = 117.0
+offset_bottom = 226.0
+grow_horizontal = 2
+
+[node name="ColorRect" type="ColorRect" parent="Linta" unique_id=1278451856]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 8.0
+offset_top = 16.0
+offset_right = -8.0
+offset_bottom = -16.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.9356389, 0.88372606, 0.7514808, 1)
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Linta/ColorRect" unique_id=966783253]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = 32.0
+offset_top = -26.5
+offset_right = 320.0
+offset_bottom = 22.5
+grow_vertical = 2
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 32
+text = "Linta"
+
+[node name="Button" type="Button" parent="Linta/ColorRect" unique_id=1962301554]
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -259.0
+offset_top = -28.5
+offset_right = -24.0
+offset_bottom = 28.5
+grow_horizontal = 0
+grow_vertical = 2
+disabled = true
+text = "SELECT"
+
+[node name="Tumblerina" type="Control" parent="." unique_id=1493069384]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_top = 202.0
+offset_bottom = 311.0
+grow_horizontal = 2
+
+[node name="ColorRect" type="ColorRect" parent="Tumblerina" unique_id=865625778]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 8.0
+offset_top = 16.0
+offset_right = -8.0
+offset_bottom = -16.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.9356389, 0.88372606, 0.7514808, 1)
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Tumblerina/ColorRect" unique_id=2126380115]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = 32.0
+offset_top = -26.5
+offset_right = 320.0
+offset_bottom = 22.5
+grow_vertical = 2
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 32
+text = "Tumblerina"
+
+[node name="Button" type="Button" parent="Tumblerina/ColorRect" unique_id=1878644545]
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -259.0
+offset_top = -28.5
+offset_right = -24.0
+offset_bottom = 28.5
+grow_horizontal = 0
+grow_vertical = 2
+disabled = true
+text = "SELECT"
+
+[node name="Spinderella" type="Control" parent="." unique_id=2038110093]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_top = 287.0
+offset_bottom = 396.0
+grow_horizontal = 2
+
+[node name="ColorRect" type="ColorRect" parent="Spinderella" unique_id=614877184]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 8.0
+offset_top = 16.0
+offset_right = -8.0
+offset_bottom = -16.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.9356389, 0.88372606, 0.7514808, 1)
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Spinderella/ColorRect" unique_id=551748087]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = 32.0
+offset_top = -26.5
+offset_right = 320.0
+offset_bottom = 22.5
+grow_vertical = 2
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 32
+text = "Spinderella"
+
+[node name="Button" type="Button" parent="Spinderella/ColorRect" unique_id=851558957]
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -259.0
+offset_top = -28.5
+offset_right = -24.0
+offset_bottom = 28.5
+grow_horizontal = 0
+grow_vertical = 2
+disabled = true
+text = "SELECT"
+
+[node name="Label" type="Label" parent="." unique_id=1936955447]
+layout_mode = 0
+offset_left = 24.0
+offset_top = 16.0
+offset_right = 187.0
+offset_bottom = 39.0
+text = "WASHING MACHINES"
+
+[node name="Label2" type="Label" parent="." unique_id=347659046]
+layout_mode = 0
+offset_left = 24.0
+offset_top = 384.0
+offset_right = 187.0
+offset_bottom = 407.0
+text = "DRYERS"
+
+[node name="Spinderella2" type="Control" parent="." unique_id=2060514984]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_top = 395.0
+offset_bottom = 504.0
+grow_horizontal = 2
+
+[node name="ColorRect" type="ColorRect" parent="Spinderella2" unique_id=1104803204]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 8.0
+offset_top = 16.0
+offset_right = -8.0
+offset_bottom = -16.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.9356389, 0.88372606, 0.7514808, 1)
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Spinderella2/ColorRect" unique_id=1208709351]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = 32.0
+offset_top = -26.5
+offset_right = 320.0
+offset_bottom = 22.5
+grow_vertical = 2
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 32
+text = "Steamy Steven"
+
+[node name="Button" type="Button" parent="Spinderella2/ColorRect" unique_id=801993375]
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -259.0
+offset_top = -28.5
+offset_right = -24.0
+offset_bottom = 28.5
+grow_horizontal = 0
+grow_vertical = 2
+text = "SELECT"
+
+[node name="Spinderella3" type="Control" parent="." unique_id=463345509]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_top = 484.0
+offset_bottom = 593.0
+grow_horizontal = 2
+
+[node name="ColorRect" type="ColorRect" parent="Spinderella3" unique_id=159918725]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 8.0
+offset_top = 16.0
+offset_right = -8.0
+offset_bottom = -16.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.9356389, 0.88372606, 0.7514808, 1)
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Spinderella3/ColorRect" unique_id=2057285723]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = 32.0
+offset_top = -26.5
+offset_right = 320.0
+offset_bottom = 22.5
+grow_vertical = 2
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 32
+text = "Dryonce"
+
+[node name="Button" type="Button" parent="Spinderella3/ColorRect" unique_id=272614968]
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -259.0
+offset_top = -28.5
+offset_right = -24.0
+offset_bottom = 28.5
+grow_horizontal = 0
+grow_vertical = 2
+disabled = true
+text = "SELECT"
+
+[connection signal="button_down" from="DirtyDebbie/ColorRect/Button" to="." method="_dirty_debbie_selected"]
+[connection signal="button_down" from="Spinderella2/ColorRect/Button" to="." method="_steamy_steven_selected"]
