@@ -6,14 +6,15 @@ MockupWasher: Hi, I'm Debbie, but my ~friends~ call me Dirty Debbie. How are you
 	jump 
 - I love a woman in uni-foam
 	MockupWasher: Then what are you looking for sudsy? I'm a load of fun >\:)
+	jump female timeline
+label female timeline
 Me: Can we do laundry together?
-MockupWasher: Of course darling ;) what's up with you?
 - I would like to do laundry as friends :)
-	MockupWasher: Then you've reached the right washing machine!
+MockupWasher: Then you've reached the right washing machine!
 - Feeling kind of down, actually
-	MockupWasher: Call me spinderella the way I'll turn that frown upside down.
+MockupWasher: Call me spinderella the way I'll turn that frown upside down.
 - You're disgusting.
-	MockupWasher: Well it says something about you that we matched, doesn't it? >\:(
+MockupWasher: Well it says something about you that we matched, doesn't it? >\:(
 MockupWasher: You ready to fill me up with a dirty load?
 - Ew wtf
 	MockupWasher: Your response pleases me not >\:(
