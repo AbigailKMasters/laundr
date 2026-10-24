@@ -23,6 +23,8 @@ Dialogic="*uid://ds2q0uclmolvu"
 
 directories/dch_directory={
 "MockupWasher": "res://MockupWasher.dch",
+"character": "res://character.dch",
+"femaledryer": "res://femaledryer.dch",
 "mockupdryer": "res://mockupdryer.dch"
 }
 directories/dtl_directory={

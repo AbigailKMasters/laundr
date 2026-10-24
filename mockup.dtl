@@ -1,24 +1,19 @@
 join MockupWasher center
-join  center
-MockupWasher: Hi, I'm Debbie, but my ~friends~ call me Dirty Debbie. How are you, sud stud?
-- I'd like you better as a man
-	MockupWasher: Hi, I'm Dan, but my ~friends~ call me Dirty Danny. How are you sud stud?
-	jump 
+MockupWasher: Hi, I'm Debbie, but my ~friends~ call me Dirty Debbie.
 - I love a woman in uni-foam
-	MockupWasher: Then what are you looking for sudsy? I'm a load of fun >\:)
-	jump female timeline
-label female timeline
+	MockupWasher: I'm a load of fun >\:)
 Me: Can we do laundry together?
-- I would like to do laundry as friends :)
-MockupWasher: Then you've reached the right washing machine!
-- Feeling kind of down, actually
-MockupWasher: Call me spinderella the way I'll turn that frown upside down.
-- You're disgusting.
-MockupWasher: Well it says something about you that we matched, doesn't it? >\:(
-MockupWasher: You ready to fill me up with a dirty load?
-- Ew wtf
-	MockupWasher: Your response pleases me not >\:(
-- Oh I'm ready, gorgeous >:)
-	MockupWasher: Let's get nastyyyyy <3
-- You're like a sibling to me
-	MockupWasher: Heh... Friendzoned again. Nice washers always finish last.
+MockupWasher: Of course! What are you looking for sudsy?
+- ew wtf
+	MockupWasher: \:( no need to be so rude
+- Feeling kind of down lately. I need a friend.
+	MockupWasher: Call me spinderella the way I'll turn that frown upside down for my new friend!
+- I want it nice and wet <3
+	MockupWasher: Then you came to the right mashine ;) they call me dirty debbie for a reason ;)))
+	MockupWasher: How can I expect the load bb?
+	- Long and thourough
+		MockupWasher: Let's make this last forever <333
+	- Short and sweet
+		MockupWasher: You'll wish it lasted longer <333
+	- Goldilocks
+		MockupWasher: Oh I'll make it just right for you <3
